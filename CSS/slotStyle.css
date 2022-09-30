@@ -1,0 +1,170 @@
+
+.frm{
+    position: relative;
+    display: flex;
+    width: 55%;
+    height: 33vw;
+    top: 5vw;
+    left: 3vw;
+    border-radius: 1.5vw;
+    background: linear-gradient(45deg, #cac9eb, #b108c0);
+    opacity: 0.8;
+}
+
+.img{ 
+    position: relative;
+    top: 2%;
+    left: 1.5%;
+} 
+
+.linha1 img{
+    position: relative;
+    top: 1.5vw;
+    left: 5%; 
+    width: 2.8vw;
+    height: 2.8vw;
+        
+}
+
+.linha1 label{
+    position: relative;
+    top: 1vw;
+    left: 7%;
+    letter-spacing: 0.3vw;
+    font-size: 1.6vw;
+}
+
+.linha2 img{
+    position: relative;
+    top: 2vw;
+    left: 5%; 
+    width: 2.8vw;
+    height: 2.8vw;
+}
+
+.linha2 label{
+    position: relative;
+    top: 1.3vw;
+    left: 7%;
+    letter-spacing: 0.3vw;
+    font-size: 1.6vw;
+}
+
+.linha3 img{
+    position: relative;
+    top: 2.5vw;
+    left: 5%;
+    width: 2.8vw;
+    height: 2.8vw;
+}
+
+.linha3 label{
+    position: relative;
+    top: 1.7vw;
+    left: 7%;
+    letter-spacing: 0.3vw;
+    font-size: 1.6vw;
+}
+
+.creditos{
+    position: relative;
+    left: 33.5vw;
+    top: -41.5vw;
+    width: 17vw;
+   
+}
+
+.creditos input{
+    position: relative;
+    top: 1vw;
+    left: 2%;
+    width: 16vw;
+    background-color: gray;
+    opacity: 0.9;
+    
+    
+}
+
+.ct {
+    position: relative;
+    width: 11vw;
+    left: 70%;
+    top: -112%;
+    
+}
+
+.janelas{
+    position: relative;
+    top: -22vw;
+    left: 20vw;
+    width: 33vw;
+    
+}
+
+.janelas img{
+    border: 0.5vw solid black;
+    padding: 0.5vw;
+    width: 10vw;
+    height: 10vw;
+
+}
+
+input{
+    position: absolute;
+    font-size: 2vw;
+    border: none;
+    color: black;
+}
+
+h2{
+    position: relative;
+    letter-spacing: 0.23vw;
+    text-shadow: 1vw 1vw 1vw rgba(0, 0, 0, .9);
+    font-size: 2vw;
+    top: -1vw;
+    left: 0.2vw;
+    color: white;
+}
+
+#jogar{
+    position: relative;
+    font-size: 1.5vw;
+    letter-spacing: 0.2vw;
+    border-radius: 0.9vw;
+    cursor: pointer;
+    padding: 0.2vw;
+    width: 9vw;
+    height: 2.5vw;
+    top: -20%;
+    left: 96.5%;
+    opacity: 0.6;
+    box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.7);
+    color: black;
+    
+}
+
+.premio{
+    position: relative;
+    font-size: 2.5vw;
+    top: -21vw;
+    left: 22vw;
+    width: 29vw;
+    height: 35px;
+    text-shadow: 1vw 1vw 1vw rgba(0, 0, 0, .9);
+}
+
+.tg2{
+    position: absolute;
+    width: 95vw;
+    left: -29vw;
+    color: white;
+    font-size: 2vw;
+    font-style: italic;
+    text-shadow: 1vw 1vw 1vw rgba(0, 0, 0, .9);   
+}
+
+.menu{
+    position: absolute;
+    top: 70%;
+    left: 74%;
+}

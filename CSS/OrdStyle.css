@@ -1,0 +1,73 @@
+.caixa{
+    position: absolute;
+    top: 14vw;
+    left: 25%;
+    width: 50vw;
+    height: 30vw;
+    text-align: center;
+    color: white;
+    border-radius: 5%;
+    padding: 2%;
+    box-shadow: 2vw 2vw 1vw rgba(0, 0, 0, 0.7);
+    background: linear-gradient(45deg, #cac9eb, #b108c0);
+    opacity: 0.7;
+}
+
+h1{
+    font-size: 3.5vw;
+    letter-spacing: 0.3vw;
+    text-shadow: 1vw 1vw 1vw rgba(0, 0, 0, .9);
+}
+
+.h{
+    font-size: 2.5vw;
+    letter-spacing: 0.3vw;
+    text-shadow: 1vw 1vw 1vw rgba(0, 0, 0, .9);
+}
+
+.total{
+    font-size: 3vw;
+    color: black;
+    text-shadow: 1vw 1vw 1vw rgb(251, 249, 249);
+}
+
+.btn{
+    color: black;
+    width: 7vw;
+    height: 2.5vw;
+    font-size: 1.1vw;
+    border-radius: 0.9vw;
+    cursor: pointer;
+    box-shadow: 1vw 1vw 1.5vw rgba(0, 0, 0, 0.7);
+    
+}
+
+.caixa input{
+    width: 34vw;
+    height: 3.5vw;
+    font-size: 2vw;
+    outline: none;
+    border: none;
+    background: rgb(182, 173, 173, 0.9);
+}
+
+#sair1{
+    position: relative;
+    top: 2.5vw;
+    left: -2.5vw;
+    font-size: 2vw;
+    color: white;
+    letter-spacing: 0.3vw;
+    cursor: pointer;
+    text-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 1);
+}
+
+.tg1{
+    position: absolute;
+    width: 95vw;
+    left: -29vw;
+    color: white;
+    font-size: 2vw;
+    font-style: italic;
+    text-shadow: 1vw 1vw 1vw rgba(0, 0, 0, .9);   
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/RelogioStyle.css">
+    <link rel="stylesheet" href="CSS/calcStyle.css">
+
+    <title>Trab. Sala 4</title>
+
+</head>
+
+    <body>
+
+        <video class="background-video" muted autoplay loop src="Videos/paraiso.mp4">
+        </video>
+
+        <div class="menu">
+            <a id="sair"   href="index.html">Sair</a><br><br>  
+        </div>
+
+        <div class="titulo" >
+            <h1>Calculadora</h1>
+          
+        </div>
+
+        
+
+        <div class="container">
+
+            <form action="#" name="forms">
+
+                <input type="text" name="answer">
+
+                <div class="buttons">
+
+                    <input style="width: 145px;" type="button" value="AC" onclick="forms.answer.value = ''">
+
+                    <input type="button" value="DEL" onclick="forms.answer.value = forms.answer.value.substr(0 , forms.answer.value.length -1)">
+                    
+                    <input type="button" value="/" onclick="forms.answer.value += '/'">
+
+                </div>
+
+                <div class="buttons">
+                        <input type="button" value="7" onclick="forms.answer.value += '7'">
+                        <input type="button" value="8" onclick="forms.answer.value += '8'">
+                        <input type="button" value="9" onclick="forms.answer.value += '9'">
+                        <input type="button" value="x" onclick="forms.answer.value += '*'">
+                </div>
+
+                <div class="buttons">
+                        <input type="button" value="4" onclick="forms.answer.value += '4'">
+                        <input type="button" value="5" onclick="forms.answer.value += '5'">
+                        <input type="button" value="6" onclick="forms.answer.value += '6'">
+                        <input type="button" value="-" onclick="forms.answer.value += '-'">
+                </div>
+
+                <div class="buttons">
+                        <input type="button" value="1" onclick="forms.answer.value += '1'">
+                        <input type="button" value="2" onclick="forms.answer.value += '2'">
+                        <input type="button" value="3" onclick="forms.answer.value += '3'">
+                        <input type="button" value="+" onclick="forms.answer.value += '+'">
+                </div>
+
+                <div class="buttons">
+                    <input type="button" value="0"  onclick="forms.answer.value += '0'">
+                    <input type="button" value="." onclick="forms.answer.value += '.'">
+                    <input style="width: 150px;" type="button" value="=" onclick="forms.answer.value = eval(forms.answer.value)">
+
+                </div>
+
+            </form>
+
+        </div>
+
+        <div class="part">
+            <marquee class="tg3" scrollamount="4" >
+              Participantes: <i>Carlos Monteiro, Sérgio Mártires, Rui Rodrigues, Eduardo Santos, José Freitas.</i> 
+            </marquee>
+          </div>
+        
+    </body>
+</html>
